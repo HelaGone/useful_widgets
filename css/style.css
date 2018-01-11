@@ -3,6 +3,7 @@
 
 /*GENERAL*/
 .active{background:darkred!important;color:#fff;}
+.first_main_container{width:100%; height: 100%;}
 
 /*MAIN IMAGE COVER*/
 #main_image_cover_section{height: 100%;width: 100%;}
@@ -32,8 +33,21 @@
 #tabbed_section div.tabcontent div.container figure{/*border:1px solid green;*/}
 #tabbed_section div.tabcontent div.container figure.fig_container figcaption{font-size: 0.7vw; color:slategray;}
 #tabbed_section div.tabcontent div.container figure img{width: 100%;height: auto;}
-#tabbed_section div.tabcontent div.container.left_container{/*border:1px solid blue;*/}
-#tabbed_section div.tabcontent div.container.right_container{/*border:1px solid blue;*/}
 #tabbed_section div.tabcontent div.container h3{font-size: 2vw;color:darkred;margin-bottom:20px;}
 #tabbed_section div.tabcontent div.container.left_container p{line-height: 2.5vh;width:90%;}
 
+
+/*COMPARISON*/
+#comparison_wid{padding-top:140px;width:100%; height: 100%;}
+#comparison_wid div.comparison_vert_tabs{width:50%;margin:0 auto;padding:20px;}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.tab_display{width:100;text-align: center;background-color:#262626;padding:10px;cursor: pointer;}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.tab_display:hover > p{color:darkred;}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.tab_display p{font-size: 2vw;color:#fff;}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.left{width:calc(80% - 0px);}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.right{width:calc(20% - 10px);}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.juxtapoz_div{display: inline-block;vertical-align: top;height: 100%;margin:40px 0px;}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.juxtapoz_div figure{width:100%;height: 100%; text-align: center;}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.juxtapoz_div figure.figure_container1{display: block;}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.juxtapoz_div figure.figure_container2{display:none;}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.juxtapoz_div figure img{width: auto;height: 600px;}
+#comparison_wid div.comparison_vert_tabs ul li.tab_item div.juxtapoz_div.tab_buttons button{display: block; border-style: none;background-color:#fff;width:100%;height: 40px;margin-bottom:20px;font-size: 1vw;border:1px solid darkred;outline: none;}

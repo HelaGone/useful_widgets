@@ -7,93 +7,69 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="cleartype" content="on">
-
+ 
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<script src="js/jquery.event.move.js" type="text/javascript"></script>
 		<script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
+		<script src="js/functions.js" type="text/javascript"></script>
 
-		<link rel="stylesheet" type="text/css" href="css/twentytwenty.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/twentytwenty.css" media="screen" />
 
 	</head>
 	<body>
 		<header id="main_header"><!-- header content --></header>
 		<section class="first_main_container clearfix">
 			<!-- content here -->
-			<section>
-				<div>
-					<ul class="clearfix colelem" id="accordion_ul">
-						<li class="AccordionPanel clearfix colelem" >
-							<div class="clearfix colelem">
+			<section id="comparison_wid">
+				<div class="comparison_vert_tabs">
+					<ul id="tabs_list">
+
+						<li class="tab_item">
+							<div class="tab_display">
 								<p>Hotel Regis</p>
 							</div>
-							<div class="colelem">
-								<div class="">
-									<div class="clearfix">
-										<div class="clearfix colelem">
-											<p>De gran tradición e historia. Mudo testigo de los grandes acontecimientos de México desde principios del siglo XX. Ubicado en Avenida Juárez y Azueta.&nbsp; En su lugar se construyó el Parque de la Solidaridad en honor a las víctimas del terremoto.</p>
-										</div>
-										<div class="clearfix colelem">
-											<div class="clearfix grpelem">
-												<div class="popup_anchor">
-													<div class="popup_element clearfix">
-														<div class="popup_anchor">
-															<div class="popup_element clearfix">
-																<div class="clearfix grpelem">
-																	<p>Comparativa</p>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="popup_anchor">
-													<div class="popup_element clearfix">
-														<div class="popup_anchor">
-															<div class="popup_element clearfix">
-																<div class="clearfix grpelem">
-																	<p>Actualidad</p>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="popup_anchor">
-												<div class="wp-slideshow-clip">
-													<div class="Container clearfix grpelem wp-panel wp-panel-active">
-														<div class="grpelem">
-															<div class="twentytwenty-wrapper twentytwenty-horizontal">
-																<div id="twenty_container" class="twentytwenty-container">
+							<div class="colapse_content">
+								<div class="juxtapoz_div tab_buttons right">
+									<button class="selector comparison_btn active">Comparativa</button>
+									<button class="selector nowadays_btn">Actualidad</button>
+								</div>
 
-																	<img src="assets/hotel-regis-1.jpg" class="twentytwenty-before" style="clip: rect(0px 400px 600px 0px);">
-																	<img src="assets/hotel-regis-2.jpg" class="twentytwenty-after">
-
-																	<div class="twentytwenty-overlay">
-																		<div class="twentytwenty-before-label"></div>
-																		<div class="twentytwenty-after-label"></div>
-																	</div>
-
-																	<div class="twentytwenty-handle">
-																		<span class="twentytwenty-left-arrow"></span>
-																		<span class="twentytwenty-right-arrow"></span>
-																	</div>
-
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="Container clearfix grpelem wp-panel">
-														<div class="clip_frame grpelem">
-															<img class="block" src="images/hotel_regis_32.jpg" alt="" width="800" height="600">
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+								<div class="juxtapoz_div tab_images left">
+									<figure class="twenty-container figure_container1">
+										<img src="assets/hotel-regis-1.jpg">
+										<img src="assets/hotel-regis-2.jpg">
+									</figure>
+									<figure class="figure_container2">
+										<img src="images/hotel_regis_32.jpg">
+									</figure>
 								</div>
 							</div>
-						</li>     
+						</li>
+
+						<li class="tab_item">
+							<div class="tab_display">
+								<p>Hotel Regis</p>
+							</div>
+							<div class="colapse_content">
+								<div class="juxtapoz_div tab_buttons right">
+									<button class="selector comparison_btn active">Comparativa</button>
+									<button class="selector nowadays_btn">Actualidad</button>
+								</div>
+
+								<div class="juxtapoz_div tab_images left">
+									<figure class="twenty-container figure_container1">
+										<img src="assets/hotel-regis-1.jpg">
+										<img src="assets/hotel-regis-2.jpg">
+									</figure>
+									<figure class="figure_container2">
+										<img src="images/hotel_regis_32.jpg">
+									</figure>
+								</div>
+							</div>
+						</li>
+
 					</ul>
 				</div>
 			</section>
