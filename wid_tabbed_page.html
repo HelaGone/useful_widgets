@@ -1,76 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">	
-	<title>Main image content</title>
-	<meta name="description" content="<?php bloginfo('description'); ?>">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="cleartype" content="on">
+	<head>
+		<meta charset="utf-8">	
+		<title>Main image content</title>
+		<meta name="description" content="<?php bloginfo('description'); ?>">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="cleartype" content="on">
 
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/functions.js"></script>
-</head>
-<body>
-	<header id="main_header"><!-- header content --></header>
-	<section class="first_main_container clearfix">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+	</head>
+	<body>
+		<header id="main_header"><!-- header content --></header>
+		<section class="first_main_container clearfix">
 
-		<section id="tabbed_section" class="clearfix">
-			<div class="tab_button_container">
-				<button id="defaultOpen" class="tablink active" data-tab="one" onclick="opentab(event, 'one')">Tab One</button>
-				<button class="tablink" data-tab="two" onclick="opentab(event, 'two')">Tab Two</button>
-				<button class="tablink" data-tab="three" onclick="opentab(event, 'three')">Tab Three</button>
-			</div>
-
-			<div id="one" class="clearfix tabcontent">
-				<div class="left_container container">
-					<h3>Lorem Ipsum</h3>
-					<p>Nam tincidunt consectetur pellentesque. Praesent tempor dolor a dui viverra gravida. Nam eu felis tincidunt, efficitur ante ut, posuere est. Nullam hendrerit quam at erat tincidunt scelerisque. Nullam pharetra molestie condimentum. Nulla sollicitudin vel nunc ac ultricies. Phasellus eu vehicula velit. Ut molestie cursus est vel vulputate. Sed vitae commodo orci. Nunc feugiat felis at urna rhoncus, et facilisis magna bibendum. Donec molestie sagittis luctus. Integer hendrerit vel sapien sed luctus. Phasellus porttitor blandit nisi, vitae consequat mi viverra sit amet. Sed non dictum metus, eu pulvinar ex. Ut iaculis placerat purus, vitae molestie risus convallis quis. Donec pulvinar laoreet metus imperdiet varius.</p>
+			<section id="tabbed_section" class="clearfix">
+				<div class="tab_button_container">
+					<button id="defaultOpen" class="tablink active" data-tab="one" onclick="opentab(event, 'one')">Tab One</button>
+					<button class="tablink" data-tab="two" onclick="opentab(event, 'two')">Tab Two</button>
+					<button class="tablink" data-tab="three" onclick="opentab(event, 'three')">Tab Three</button>
 				</div>
-				<div class="right_container container clearfix">
-					<figure class="fig_container clearfix">
-						<img src="images/001.jpg">
-						<figcaption class="img_caption">
-							<p>Caption lorem ipsum</p>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
 
-			<div id="two" class="clearfix tabcontent">
-				<div class="left_container container">
-					<h3>Lorem Ipsum</h3>
-					<p>Dolor sit amet consectetur</p>
+				<div id="one" class="clearfix tabcontent">
+					<div class="left_container container">
+						<h3>Lorem Ipsum</h3>
+						<p>Nam tincidunt consectetur pellentesque. Praesent tempor dolor a dui viverra gravida. Nam eu felis tincidunt, efficitur ante ut, posuere est. Nullam hendrerit quam at erat tincidunt scelerisque. Nullam pharetra molestie condimentum. Nulla sollicitudin vel nunc ac ultricies. Phasellus eu vehicula velit. Ut molestie cursus est vel vulputate. Sed vitae commodo orci. Nunc feugiat felis at urna rhoncus, et facilisis magna bibendum. Donec molestie sagittis luctus. Integer hendrerit vel sapien sed luctus. Phasellus porttitor blandit nisi, vitae consequat mi viverra sit amet. Sed non dictum metus, eu pulvinar ex. Ut iaculis placerat purus, vitae molestie risus convallis quis. Donec pulvinar laoreet metus imperdiet varius.</p>
+					</div>
+					<div class="right_container container clearfix">
+						<figure class="fig_container clearfix">
+							<img src="images/001.jpg">
+							<figcaption class="img_caption">
+								<p>Caption lorem ipsum</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
-				<div class="right_container container">
-					<figure class="fig_container">
-						<img src="images/002.jpg">
-						<figcaption class="img_caption">
-							<p>Caption lorem ipsum</p>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
 
-			<div id="three" class="clearfix tabcontent">
-				<div class="left_container container">
-					<h3>Lorem Ipsum</h3>
-					<p>Dolor sit amet consectetur</p>
+				<div id="two" class="clearfix tabcontent">
+					<div class="left_container container">
+						<h3>Lorem Ipsum</h3>
+						<p>Dolor sit amet consectetur</p>
+					</div>
+					<div class="right_container container">
+						<figure class="fig_container">
+							<img src="images/002.jpg">
+							<figcaption class="img_caption">
+								<p>Caption lorem ipsum</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
-				<div class="right_container container">
-					<figure class="fig_container">
-						<img src="images/003.jpg">
-						<figcaption class="img_caption">
-							<p>Caption lorem ipsum</p>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
-		</section>
 
-	</section><!-- end first_main_container -->
-</body>
+				<div id="three" class="clearfix tabcontent">
+					<div class="left_container container">
+						<h3>Lorem Ipsum</h3>
+						<p>Dolor sit amet consectetur</p>
+					</div>
+					<div class="right_container container">
+						<figure class="fig_container">
+							<img src="images/003.jpg">
+							<figcaption class="img_caption">
+								<p>Caption lorem ipsum</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+
+		</section><!-- end first_main_container -->
+		<footer><!-- FOOTER CONTENT HERE --></footer>
+	</body>
 </html>	
