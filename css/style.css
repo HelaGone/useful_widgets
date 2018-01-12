@@ -55,3 +55,11 @@
 
 
 /*IMAGE LIGHTBOX*/
+#lightbox_images{width:60%;margin:120px auto 0px auto;}
+
+/*MASONRY*/
+#lightbox_images div.masonry {width:100%;height:auto;padding: 0;-moz-column-gap: 0.5em;-webkit-column-gap: 0.5em;column-gap: 0.5em;-moz-column-count:4;-webkit-column-count:4;column-count:4;font-size: .85em;}
+#lightbox_images div.masonry figure{display: inline-block;background: #fff;padding: 1em;width: 100%;height: auto;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+#lightbox_images div.masonry figure.figure_item a{text-decoration: none;color:slategray;}
+#lightbox_images div.masonry figure img{width:100%;height: auto;}
+
