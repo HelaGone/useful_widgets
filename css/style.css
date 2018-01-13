@@ -63,3 +63,7 @@
 #lightbox_images div.masonry figure.figure_item a{text-decoration: none;color:slategray;}
 #lightbox_images div.masonry figure img{width:100%;height: auto;}
 
+/*VIDEO PLAYER*/
+#video_player_section{margin-top:120px;}
+.vid_player_container{text-align: center;}
+
